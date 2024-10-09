@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h4>Verify your email address</h4>
+        <h6> a four-digit code has been sent to your email name@frontendev.com</h6>
+        <h6> please enter the code to verify your email address</h6>
+        <form id="otpForm">
+            <div class="input-field">
+                <input type="text" maxlength="1" id="otp1">
+                <input type="text" maxlength="1" id="otp2">
+                <input type="text" maxlength="1" id="otp3">
+                <input type="text" maxlength="1" id="otp4">
+            </div>
+            <button type="button" id="verifyBtn">Verify OTP </button>
+        </form>
+        <p id="message"></p>
+    </div>
+    
+    <script src="script.js"></script> 
+</body>
+</html>
